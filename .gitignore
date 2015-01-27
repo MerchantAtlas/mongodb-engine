@@ -10,3 +10,4 @@ build
 docs/.*
 dist/
 .tox
+.idea/*
