@@ -259,7 +259,6 @@ class DatabaseWrapper(NonrelDatabaseWrapper):
 
         try:
             self.connection = connection_class(**conn_options)
-            print (conn_options)
             self.database = self.connection[db_name]
         except TypeError:
             exc_info = sys.exc_info()
